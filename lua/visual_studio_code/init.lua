@@ -77,7 +77,7 @@ function M.enter()
 
     hooks.after(config, colors, utils)
 
-    vim.cmd("highlight MatchParen cterm=bold gui=bold guifg=#fab387 guibg=#45475a")
+    vim.cmd("highlight MatchParen cterm=bold gui=bold guifg=#fab387 guibg=#517560")
 end
 
 function M.get_config()
